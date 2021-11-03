@@ -1,6 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
 }
 
 .logo {
@@ -80,4 +87,33 @@ button {
     padding: 8px;
     border: 1px solid #3882f6;
     border-radius: 8px;
+}
+
+.case-img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #eaeaec;
+    border-radius: 8px;
+}
+
+.information-header-text {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.case {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.case-text {
+    font-size: 24px;
+    color: #1F2937;
+    margin-top: 12px;
+    font-family: 'Ceviche One', cursive;
 }
