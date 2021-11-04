@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
@@ -92,7 +94,6 @@ button {
 .case-img {
     width: 200px;
     height: 150px;
-    border: 1px solid #eaeaec;
     border-radius: 8px;
 }
 
@@ -109,6 +110,7 @@ button {
     display: flex;
     gap: 24px;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .case-text {
@@ -116,4 +118,81 @@ button {
     color: #1F2937;
     margin-top: 12px;
     font-family: 'Ceviche One', cursive;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------
+----------start of the third section----------------------------------------------------------------------------------
+=--------------------------------*/
+
+.capsule {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 36px;
+    font-weight: 550;
+    padding-top: 30px;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    margin-top: 20px;
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.modal-case {
+    display: flex;
+    background-color: #1c90dd;
+    padding: 52px;
+    width: 800px;
+    gap: 100px;
+    border-radius: 8px;
+}
+
+.modal-header,
+.modal-text {
+    color: #fff;
+}
+
+.modal-header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.modal-btn {
+    border: 1px solid #fff;
+    padding: 0px 24px;
+    width: 150px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
 }
